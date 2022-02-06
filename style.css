@@ -101,28 +101,17 @@ header {
 /***************************************************************************/
 
 .btn {
-  width: 56px;
-  height: 40px;
   box-sizing: border-box;
   float: left;
-  margin: 0 0 0 1150px;
+  margin: 0 0 0 1140px;
 }
 
-.button {
-  width: 30px;
-  height: 30px;
-  border: none;
+.btn img {
+  width: 50px;
+  padding-top: 8px;
 }
-
-.butt 
 
 /* section */
-
-.sec {
-  width: 80%;
-  height: 400px;
-  margin-left: 40%;
-}
 
 section {
   box-sizing: border-box;
@@ -211,7 +200,7 @@ section h2 {
   background-color: white;
   border-radius: 2px;
   float: left;
-  box-shadow: 0 0 2px rgb(175, 175, 175);
+  box-shadow: rgba(154, 169, 185, 0.445) 0px 0px 0px 1px;
 }
 
 .thumb {
