@@ -8,8 +8,9 @@
 header {
   width: 100%;
   height: 170px;
-  background-color: rgb(36, 36, 36);
+  background-color: rgb(33, 37, 41);
   color: white;
+  display: none;
 }
 
 .header_content {
@@ -18,20 +19,30 @@ header {
   margin: 0 auto;
 }
 
-.header_content h4 {
-  padding: 20px 0 10px 0;
-  font-size: 20px;
-}
-
 .content {
-  width: 640px;
+  width: 750px;
+  height: 70px;
   box-sizing: border-box;
   float: left;
+  margin-right: 0 30px 0 0;
+}
+
+.content h4 {
+  margin: 20px 0 10px 0;
+  font-size: 25px;
+  font-weight: 100;
 }
 
 .menubar {
   box-sizing: border-box;
   float: left;
+  margin-left: 60px;
+}
+
+.menubar h4 {
+  margin: 20px 0 10px 40px;
+  font-size: 25px;
+  font-weight: 100;
 }
 
 .menubar ul li {
@@ -42,9 +53,10 @@ header {
   color: rgb(255, 255, 255);
 }
 
-.para {
+.header_content p {
   opacity: 0.5;
   color: rgb(177, 199, 212);
+  margin: 5px 0 0 0;
 }
 
 /*-----------------------second header-----------------------*/
@@ -59,7 +71,6 @@ header {
   width: 1320px;
   height: 56px;
   margin: 0 auto;
-  justify-content: space-between;
 }
 
 .logo {
@@ -92,13 +103,9 @@ header {
 .btn {
   width: 56px;
   height: 40px;
-  background-color: rgb(47, 0, 255);
   box-sizing: border-box;
   float: left;
-  margin: 0 0 0 900px;
-  align-items: center;
-  justify-content: center;
-  padding: 5px 13px 5px 13px;
+  margin: 0 0 0 1150px;
 }
 
 .button {
@@ -107,15 +114,22 @@ header {
   border: none;
 }
 
+.butt 
+
 /* section */
+
+.sec {
+  width: 80%;
+  height: 400px;
+  margin-left: 40%;
+}
 
 section {
   box-sizing: border-box;
-  margin: 0 auto;
   width: 1320px;
   height: 424px;
+  margin: 0 auto;
   text-align: center;
-  text-decoration: none;
 }
 
 section a {
@@ -123,7 +137,7 @@ section a {
 }
 
 section p {
-  color: #55595c;
+  color: #6d7072;
   font-size: 20px;
   margin: -20px;
 }
@@ -143,7 +157,7 @@ section h2 {
 
 .main {
   padding: 10px 15px 10px 15px;
-  background-color: blue;
+  background-color: #0d6efd;
   color: white;
   border-radius: 5px;
   transition: 0.2s;
@@ -159,7 +173,7 @@ section h2 {
 
 .secondary {
   padding: 10px 15px 10px 15px;
-  background-color: rgb(88, 88, 88);
+  background-color: rgb(109, 109, 109);
   color: white;
   border-radius: 5px;
   transition: 0.2s;
@@ -208,7 +222,8 @@ section h2 {
   background-color: #55595c;
   text-align: center;
   padding: 100px 0 0 0;
-  font-size: 25px;
+  font-size: 18px;
+  font-weight: 100;
   color: white;
 }
 
